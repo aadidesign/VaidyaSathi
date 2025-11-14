@@ -38,11 +38,19 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Update the Gemini API key in `settings.py`:
+4. Configure environment variables:
 
-```python
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+```bash
+# Copy the example environment file
+cp env.example .env
+
+# Edit .env and add your actual API keys
+# Required: GEMINI_API_KEY
+# Required: SECRET_KEY (generate a new one!)
+# Optional: PINECONE_API_KEY, PINECONE_HOST
 ```
+
+**Security Note:** Never commit the `.env` file to version control!
 
 ## Running the Application
 

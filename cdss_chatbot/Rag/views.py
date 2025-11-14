@@ -9,9 +9,13 @@ from .enhanced_medical_system import get_enhanced_medical_system
 from .rag_system import RAGClinicalDecisionSupport
 from .models import Patient
 
-# Configure the Gemini API
-genai.configure(api_key=settings.GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+# Configure the Gemini API (only if key is available)
+if settings.GEMINI_API_KEY:
+    genai.configure(api_key=settings.GEMINI_API_KEY)
+    model = genai.GenerativeModel("gemini-1.5-flash")
+else:
+    model = None
+    print("⚠️  WARNING: GEMINI_API_KEY not configured. Some features may not work.")
 
 # Initialize the improved RAG system
 rag_system = None

@@ -10,12 +10,15 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-your-secret-key-here'
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-your-secret-key-here-change-in-production')
+if SECRET_KEY == 'django-insecure-your-secret-key-here-change-in-production':
+    print("⚠️  WARNING: Using default SECRET_KEY! Please set SECRET_KEY in your .env file")
+    print("⚠️  Generate a new key with: python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv('DEBUG', 'True').lower() == 'true'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver']
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost,testserver').split(',')
 
 # Application definition
 INSTALLED_APPS = [
@@ -133,6 +136,14 @@ if not GEMINI_API_KEY:
         GEMINI_API_KEY = None
     else:
         raise ValueError("GEMINI_API_KEY environment variable is required in production")
+
+# Pinecone API Configuration (Optional - for vector database)
+PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
+PINECONE_HOST = os.getenv('PINECONE_HOST')
+if PINECONE_API_KEY and PINECONE_HOST:
+    print("✅ Pinecone configuration loaded from environment variables")
+else:
+    print("ℹ️  Pinecone not configured - using local FAISS vector database")
 
 # Medical Knowledge Base Path
 MEDICAL_KNOWLEDGE_PATH = BASE_DIR / os.getenv('MEDICAL_KNOWLEDGE_PATH', 'Rag/data/')

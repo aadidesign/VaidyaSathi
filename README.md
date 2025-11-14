@@ -780,7 +780,7 @@ VaidyaSathi/
 │   │   │   └── ...
 │   │   └── main.jsx              # Entry point
 │   ├── assets/
-│   │   └── VaidyaSathi.mp4       # Demo video
+│   │   └── vs_system_architecture.png  # System architecture diagram
 │   ├── package.json
 │   └── vite.config.js
 │
@@ -984,24 +984,19 @@ The frontend communicates with the backend via API calls, so both must be runnin
 
 ### Watch the Complete Project Demonstration
 
-**📹 Demo Video Available Locally**
+**📹 Demonstration Video on Google Drive**
 
-The demonstration video (`VaidyaSathi.mp4`) is available in the project repository at:
-```
-cdss-react-frontend/assets/VaidyaSathi.mp4
-```
+The complete project demonstration video is available on Google Drive:
 
-> **Note**: Due to GitHub's file size limitations, the video is not hosted directly on GitHub. Please download the repository and access the video locally, or host it on a video platform like YouTube, Vimeo, or Google Drive and update this section with the link.
+**[🔗 View Demonstration Video on Google Drive](https://drive.google.com/file/d/1DxL1snvsoP16Y-eWWtA_c600ZXwU4K4X/view?usp=sharing)**
 
-**To view the video:**
-1. Clone the repository: `git clone https://github.com/aadidesign/VaidyaSathi.git`
-2. Navigate to: `cdss-react-frontend/assets/VaidyaSathi.mp4`
-3. Open the video file with any media player
+**Instructions to view the video:**
+1. Click on the link above or copy this URL: `https://drive.google.com/file/d/1DxL1snvsoP16Y-eWWtA_c600ZXwU4K4X/view?usp=sharing`
+2. The video will open in Google Drive viewer
+3. You can watch it directly in your browser or download it for offline viewing
+4. If prompted, you may need to sign in to Google to access the video
 
-**Alternative**: If you host the video externally (YouTube, Drive, etc.), you can add the link here:
-```markdown
-[![Watch the Demo Video](https://your-video-link-here)](https://your-video-link-here)
-```
+> **Note**: The video demonstrates all major features of VaidyaSathi including NLP processing, RAG system, risk assessment, and medical knowledge retrieval.
 
 </div>
 
