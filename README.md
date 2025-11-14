@@ -336,7 +336,7 @@ VaidyaSathi implements **14 core NLP concepts** demonstrating practical applicat
 
 <div align="center">
 
-![VaidyaSathi System Architecture](cdss-react-frontend/assets/vs_system_architecture.png)
+![VaidyaSathi System Architecture](./cdss-react-frontend/assets/vs_system_architecture.png)
 
 *VaidyaSathi System Architecture - NLP Pipeline & RAG Flow*
 
@@ -984,10 +984,24 @@ The frontend communicates with the backend via API calls, so both must be runnin
 
 ### Watch the Complete Project Demonstration
 
-<video width="800" controls>
-  <source src="cdss-react-frontend/assets/VaidyaSathi.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+**📹 Demo Video Available Locally**
+
+The demonstration video (`VaidyaSathi.mp4`) is available in the project repository at:
+```
+cdss-react-frontend/assets/VaidyaSathi.mp4
+```
+
+> **Note**: Due to GitHub's file size limitations, the video is not hosted directly on GitHub. Please download the repository and access the video locally, or host it on a video platform like YouTube, Vimeo, or Google Drive and update this section with the link.
+
+**To view the video:**
+1. Clone the repository: `git clone https://github.com/aadidesign/VaidyaSathi.git`
+2. Navigate to: `cdss-react-frontend/assets/VaidyaSathi.mp4`
+3. Open the video file with any media player
+
+**Alternative**: If you host the video externally (YouTube, Drive, etc.), you can add the link here:
+```markdown
+[![Watch the Demo Video](https://your-video-link-here)](https://your-video-link-here)
+```
 
 </div>
 
