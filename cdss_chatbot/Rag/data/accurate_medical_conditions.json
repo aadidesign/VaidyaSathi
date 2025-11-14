@@ -1,0 +1,564 @@
+[
+  {
+    "condition": "Migraine",
+    "icd10_code": "G43",
+    "description": "A neurological condition characterized by recurrent moderate to severe headaches, often accompanied by nausea, vomiting, and sensitivity to light and sound.",
+    "symptoms": [
+      "headache",
+      "chronic headache",
+      "severe headache",
+      "throbbing headache",
+      "pulsating headache",
+      "nausea",
+      "vomiting",
+      "sensitivity to light",
+      "sensitivity to sound",
+      "aura",
+      "visual disturbances",
+      "dizziness"
+    ],
+    "complications": [
+      "chronic migraine",
+      "medication overuse headache",
+      "status migrainosus"
+    ],
+    "treatments": [
+      "triptans (sumatriptan, rizatriptan)",
+      "NSAIDs (ibuprofen, naproxen)",
+      "acetaminophen",
+      "anti-nausea medications",
+      "preventive medications (propranolol, topiramate)",
+      "lifestyle modifications",
+      "stress management"
+    ],
+    "diagnostic_tests": [
+      "neurological examination",
+      "head CT scan",
+      "MRI brain",
+      "lumbar puncture (if indicated)"
+    ],
+    "risk_factors": [
+      "family history",
+      "female gender",
+      "hormonal changes",
+      "stress",
+      "certain foods",
+      "sleep disturbances"
+    ],
+    "emergency_protocol": "Seek immediate care for sudden severe headache, headache with fever, neck stiffness, or neurological symptoms",
+    "age_groups": ["adults", "pediatric"],
+    "severity_levels": ["mild", "moderate", "severe"],
+    "keywords": ["migraine", "headache", "chronic headache", "severe headache"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "American Headache Society Guidelines",
+        "url": "https://americanheadachesociety.org"
+      }
+    ],
+    "prevalence": "common",
+    "urgency_score": 6
+  },
+  {
+    "condition": "Tension Headache",
+    "icd10_code": "G44.2",
+    "description": "The most common type of headache, characterized by mild to moderate pain that feels like a tight band around the head.",
+    "symptoms": [
+      "headache",
+      "chronic headache",
+      "mild headache",
+      "moderate headache",
+      "pressure around head",
+      "tightness in head",
+      "muscle tension",
+      "neck pain",
+      "shoulder pain"
+    ],
+    "complications": [
+      "chronic tension headache",
+      "medication overuse headache"
+    ],
+    "treatments": [
+      "acetaminophen",
+      "ibuprofen",
+      "aspirin",
+      "naproxen",
+      "stress management",
+      "relaxation techniques",
+      "physical therapy",
+      "massage therapy"
+    ],
+    "diagnostic_tests": [
+      "neurological examination",
+      "head CT scan (if red flags present)"
+    ],
+    "risk_factors": [
+      "stress",
+      "anxiety",
+      "depression",
+      "poor posture",
+      "lack of sleep",
+      "eye strain"
+    ],
+    "emergency_protocol": "Usually not an emergency unless sudden onset or associated with neurological symptoms",
+    "age_groups": ["adults", "pediatric"],
+    "severity_levels": ["mild", "moderate"],
+    "keywords": ["tension headache", "stress headache", "muscle tension headache"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "International Headache Society Classification",
+        "url": "https://ichd-3.org"
+      }
+    ],
+    "prevalence": "very_common",
+    "urgency_score": 3
+  },
+  {
+    "condition": "Cluster Headache",
+    "icd10_code": "G44.0",
+    "description": "A severe type of headache that occurs in clusters, typically affecting one side of the head and often around the eye.",
+    "symptoms": [
+      "severe headache",
+      "excruciating headache",
+      "unilateral headache",
+      "eye pain",
+      "facial pain",
+      "tearing",
+      "nasal congestion",
+      "restlessness",
+      "agitation"
+    ],
+    "complications": [
+      "chronic cluster headache",
+      "suicidal ideation (due to pain severity)"
+    ],
+    "treatments": [
+      "oxygen therapy",
+      "triptans (sumatriptan injection)",
+      "lidocaine nasal spray",
+      "verapamil (preventive)",
+      "prednisone (preventive)",
+      "lithium (preventive)"
+    ],
+    "diagnostic_tests": [
+      "neurological examination",
+      "head CT scan",
+      "MRI brain"
+    ],
+    "risk_factors": [
+      "male gender",
+      "smoking",
+      "alcohol use",
+      "family history"
+    ],
+    "emergency_protocol": "Consider emergency care for severe pain or if first episode",
+    "age_groups": ["adults"],
+    "severity_levels": ["severe"],
+    "keywords": ["cluster headache", "severe headache", "unilateral headache"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "American Headache Society Guidelines",
+        "url": "https://americanheadachesociety.org"
+      }
+    ],
+    "prevalence": "rare",
+    "urgency_score": 8
+  },
+  {
+    "condition": "Sinus Headache",
+    "icd10_code": "J32.9",
+    "description": "Headache caused by inflammation of the sinuses, often associated with sinusitis.",
+    "symptoms": [
+      "headache",
+      "facial pain",
+      "sinus pressure",
+      "nasal congestion",
+      "runny nose",
+      "fever",
+      "fatigue",
+      "cough",
+      "post-nasal drip"
+    ],
+    "complications": [
+      "chronic sinusitis",
+      "orbital cellulitis",
+      "meningitis"
+    ],
+    "treatments": [
+      "decongestants",
+      "nasal saline irrigation",
+      "antibiotics (if bacterial)",
+      "pain relievers",
+      "steam inhalation",
+      "antihistamines"
+    ],
+    "diagnostic_tests": [
+      "physical examination",
+      "nasal endoscopy",
+      "CT scan of sinuses"
+    ],
+    "risk_factors": [
+      "allergies",
+      "upper respiratory infections",
+      "nasal polyps",
+      "deviated septum"
+    ],
+    "emergency_protocol": "Seek care if severe pain, fever, or visual changes",
+    "age_groups": ["adults", "pediatric"],
+    "severity_levels": ["mild", "moderate", "severe"],
+    "keywords": ["sinus headache", "sinusitis", "facial pain"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "American Academy of Otolaryngology Guidelines",
+        "url": "https://www.entnet.org"
+      }
+    ],
+    "prevalence": "common",
+    "urgency_score": 4
+  },
+  {
+    "condition": "Medication Overuse Headache",
+    "icd10_code": "G44.4",
+    "description": "Headache caused by overuse of pain medications, often occurring in patients with chronic headaches.",
+    "symptoms": [
+      "chronic headache",
+      "daily headache",
+      "morning headache",
+      "headache that worsens with medication",
+      "headache that improves temporarily with medication"
+    ],
+    "complications": [
+      "chronic daily headache",
+      "medication dependence"
+    ],
+    "treatments": [
+      "medication withdrawal",
+      "preventive medications",
+      "behavioral therapy",
+      "lifestyle modifications"
+    ],
+    "diagnostic_tests": [
+      "neurological examination",
+      "medication history review"
+    ],
+    "risk_factors": [
+      "frequent use of pain medications",
+      "history of migraine or tension headache",
+      "anxiety",
+      "depression"
+    ],
+    "emergency_protocol": "Not typically an emergency, but requires medical management",
+    "age_groups": ["adults"],
+    "severity_levels": ["moderate", "severe"],
+    "keywords": ["medication overuse headache", "rebound headache", "chronic headache"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "International Headache Society Classification",
+        "url": "https://ichd-3.org"
+      }
+    ],
+    "prevalence": "moderate",
+    "urgency_score": 5
+  },
+  {
+    "condition": "Hypertension",
+    "icd10_code": "I10",
+    "description": "High blood pressure, a common condition that can lead to serious health problems if untreated.",
+    "symptoms": [
+      "high blood pressure",
+      "elevated blood pressure",
+      "headache",
+      "dizziness",
+      "shortness of breath",
+      "chest pain",
+      "visual changes",
+      "fatigue"
+    ],
+    "complications": [
+      "heart disease",
+      "stroke",
+      "kidney disease",
+      "eye damage",
+      "metabolic syndrome"
+    ],
+    "treatments": [
+      "ACE inhibitors",
+      "ARBs",
+      "calcium channel blockers",
+      "diuretics",
+      "beta-blockers",
+      "lifestyle modifications",
+      "diet changes",
+      "exercise",
+      "weight loss"
+    ],
+    "diagnostic_tests": [
+      "blood pressure measurement",
+      "blood tests",
+      "urinalysis",
+      "ECG",
+      "echocardiogram"
+    ],
+    "risk_factors": [
+      "age",
+      "family history",
+      "obesity",
+      "sedentary lifestyle",
+      "high salt diet",
+      "alcohol use",
+      "smoking",
+      "stress"
+    ],
+    "emergency_protocol": "Seek immediate care for blood pressure >180/120 or symptoms of organ damage",
+    "age_groups": ["adults", "elderly"],
+    "severity_levels": ["mild", "moderate", "severe"],
+    "keywords": ["hypertension", "high blood pressure", "elevated blood pressure"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "American Heart Association Guidelines",
+        "url": "https://www.heart.org"
+      }
+    ],
+    "prevalence": "very_common",
+    "urgency_score": 7
+  },
+  {
+    "condition": "Pneumonia",
+    "icd10_code": "J18.9",
+    "description": "Infection of the lungs that can cause mild to severe illness, especially in young children and older adults.",
+    "symptoms": [
+      "fever",
+      "chills",
+      "cough",
+      "shortness of breath",
+      "chest pain",
+      "fatigue",
+      "confusion",
+      "sweating",
+      "nausea",
+      "vomiting"
+    ],
+    "complications": [
+      "respiratory failure",
+      "sepsis",
+      "pleural effusion",
+      "lung abscess",
+      "death"
+    ],
+    "treatments": [
+      "antibiotics",
+      "antiviral medications",
+      "oxygen therapy",
+      "pain relievers",
+      "fever reducers",
+      "rest",
+      "hydration"
+    ],
+    "diagnostic_tests": [
+      "chest X-ray",
+      "blood tests",
+      "sputum culture",
+      "pulse oximetry",
+      "CT scan (if needed)"
+    ],
+    "risk_factors": [
+      "age (very young or elderly)",
+      "chronic lung disease",
+      "smoking",
+      "weakened immune system",
+      "recent viral infection"
+    ],
+    "emergency_protocol": "Seek immediate care for severe symptoms, difficulty breathing, or high fever",
+    "age_groups": ["pediatric", "adults", "elderly"],
+    "severity_levels": ["mild", "moderate", "severe"],
+    "keywords": ["pneumonia", "lung infection", "respiratory infection"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "American Thoracic Society Guidelines",
+        "url": "https://www.thoracic.org"
+      }
+    ],
+    "prevalence": "common",
+    "urgency_score": 8
+  },
+  {
+    "condition": "Urinary Tract Infection",
+    "icd10_code": "N39.0",
+    "description": "Infection of the urinary system, most commonly affecting the bladder and urethra.",
+    "symptoms": [
+      "frequent urination",
+      "painful urination",
+      "burning urination",
+      "urgency to urinate",
+      "lower abdominal pain",
+      "fever",
+      "chills",
+      "confusion",
+      "nausea",
+      "vomiting"
+    ],
+    "complications": [
+      "kidney infection",
+      "sepsis",
+      "recurrent infections",
+      "kidney damage"
+    ],
+    "treatments": [
+      "antibiotics",
+      "pain relievers",
+      "increased fluid intake",
+      "cranberry products",
+      "probiotics"
+    ],
+    "diagnostic_tests": [
+      "urinalysis",
+      "urine culture",
+      "blood tests",
+      "imaging (if complicated)"
+    ],
+    "risk_factors": [
+      "female gender",
+      "sexual activity",
+      "menopause",
+      "diabetes",
+      "catheter use",
+      "urinary tract abnormalities"
+    ],
+    "emergency_protocol": "Seek care if fever, back pain, or symptoms worsen",
+    "age_groups": ["adults", "elderly"],
+    "severity_levels": ["mild", "moderate", "severe"],
+    "keywords": ["urinary tract infection", "UTI", "bladder infection"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Infectious Diseases Society of America Guidelines",
+        "url": "https://www.idsociety.org"
+      }
+    ],
+    "prevalence": "very_common",
+    "urgency_score": 6
+  },
+  {
+    "condition": "Gastroenteritis",
+    "icd10_code": "K59.1",
+    "description": "Inflammation of the stomach and intestines, commonly caused by viral or bacterial infections.",
+    "symptoms": [
+      "nausea",
+      "vomiting",
+      "diarrhea",
+      "abdominal pain",
+      "cramping",
+      "fever",
+      "chills",
+      "fatigue",
+      "dehydration",
+      "loss of appetite"
+    ],
+    "complications": [
+      "dehydration",
+      "electrolyte imbalance",
+      "kidney failure",
+      "sepsis"
+    ],
+    "treatments": [
+      "oral rehydration therapy",
+      "intravenous fluids",
+      "antiemetics",
+      "antidiarrheals",
+      "antibiotics (if bacterial)",
+      "probiotics",
+      "rest"
+    ],
+    "diagnostic_tests": [
+      "stool culture",
+      "blood tests",
+      "urinalysis",
+      "imaging (if needed)"
+    ],
+    "risk_factors": [
+      "contaminated food or water",
+      "close contact with infected person",
+      "weakened immune system",
+      "travel to endemic areas"
+    ],
+    "emergency_protocol": "Seek care if severe dehydration, persistent vomiting, or blood in stool",
+    "age_groups": ["pediatric", "adults", "elderly"],
+    "severity_levels": ["mild", "moderate", "severe"],
+    "keywords": ["gastroenteritis", "stomach flu", "food poisoning", "viral gastroenteritis"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Centers for Disease Control and Prevention Guidelines",
+        "url": "https://www.cdc.gov"
+      }
+    ],
+    "prevalence": "very_common",
+    "urgency_score": 5
+  },
+  {
+    "condition": "Anxiety Disorder",
+    "icd10_code": "F41.9",
+    "description": "A mental health condition characterized by excessive worry, fear, or anxiety that interferes with daily activities.",
+    "symptoms": [
+      "excessive worry",
+      "fear",
+      "anxiety",
+      "restlessness",
+      "fatigue",
+      "difficulty concentrating",
+      "irritability",
+      "muscle tension",
+      "sleep disturbances",
+      "panic attacks"
+    ],
+    "complications": [
+      "depression",
+      "substance abuse",
+      "social isolation",
+      "work or school problems",
+      "suicidal ideation"
+    ],
+    "treatments": [
+      "cognitive behavioral therapy",
+      "medication (SSRIs, benzodiazepines)",
+      "relaxation techniques",
+      "exercise",
+      "mindfulness",
+      "support groups"
+    ],
+    "diagnostic_tests": [
+      "psychological evaluation",
+      "screening questionnaires",
+      "medical examination (to rule out physical causes)"
+    ],
+    "risk_factors": [
+      "family history",
+      "trauma",
+      "stress",
+      "chronic illness",
+      "substance use",
+      "personality traits"
+    ],
+    "emergency_protocol": "Seek immediate care for suicidal thoughts or severe panic attacks",
+    "age_groups": ["adults", "elderly"],
+    "severity_levels": ["mild", "moderate", "severe"],
+    "keywords": ["anxiety", "anxiety disorder", "panic disorder", "generalized anxiety"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "American Psychiatric Association Guidelines",
+        "url": "https://www.psychiatry.org"
+      }
+    ],
+    "prevalence": "very_common",
+    "urgency_score": 4
+  }
+]
+
+

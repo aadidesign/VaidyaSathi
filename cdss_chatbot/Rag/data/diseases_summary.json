@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "name": "Ischemic Heart Disease",
+    "category": "Cardiovascular",
+    "icd10": "I20-I25",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 5,
+    "treatments_count": 5
+  },
+  {
+    "id": 2,
+    "name": "Stroke",
+    "category": "Cardiovascular",
+    "icd10": "I60-I69",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 5,
+    "treatments_count": 5
+  },
+  {
+    "id": 3,
+    "name": "Hypertension",
+    "category": "Cardiovascular",
+    "icd10": "I10-I16",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 4,
+    "name": "Heart Failure",
+    "category": "Cardiovascular",
+    "icd10": "I50",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 5,
+    "name": "Atrial Fibrillation",
+    "category": "Cardiovascular",
+    "icd10": "I48",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 6,
+    "name": "Chronic Obstructive Pulmonary Disease",
+    "category": "Respiratory",
+    "icd10": "J40-J47",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 5,
+    "treatments_count": 5
+  },
+  {
+    "id": 7,
+    "name": "Lower Respiratory Infections",
+    "category": "Respiratory",
+    "icd10": "J12-J18",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 8,
+    "name": "Asthma",
+    "category": "Respiratory",
+    "icd10": "J45-J46",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 9,
+    "name": "Lung Cancer",
+    "category": "Respiratory",
+    "icd10": "C78.0",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 10,
+    "name": "Pneumonia",
+    "category": "Respiratory",
+    "icd10": "J12-J18",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 11,
+    "name": "Type 2 Diabetes Mellitus",
+    "category": "Endocrine",
+    "icd10": "E11",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 5,
+    "treatments_count": 5
+  },
+  {
+    "id": 12,
+    "name": "Type 1 Diabetes Mellitus",
+    "category": "Endocrine",
+    "icd10": "E10",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 13,
+    "name": "Obesity",
+    "category": "Endocrine",
+    "icd10": "E66",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 14,
+    "name": "Metabolic Syndrome",
+    "category": "Endocrine",
+    "icd10": "E88.81",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 15,
+    "name": "Thyroid Disorders",
+    "category": "Endocrine",
+    "icd10": "E00-E07",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 16,
+    "name": "Alzheimer's Disease",
+    "category": "Neurological",
+    "icd10": "G30",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 5,
+    "treatments_count": 5
+  },
+  {
+    "id": 17,
+    "name": "Parkinson's Disease",
+    "category": "Neurological",
+    "icd10": "G20",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 18,
+    "name": "Epilepsy",
+    "category": "Neurological",
+    "icd10": "G40-G41",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 19,
+    "name": "Migraine",
+    "category": "Neurological",
+    "icd10": "G43",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 20,
+    "name": "Multiple Sclerosis",
+    "category": "Neurological",
+    "icd10": "G35",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 21,
+    "name": "Depression",
+    "category": "Mental Health",
+    "icd10": "F32-F33",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 22,
+    "name": "Anxiety Disorders",
+    "category": "Mental Health",
+    "icd10": "F40-F41",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 23,
+    "name": "Bipolar Disorder",
+    "category": "Mental Health",
+    "icd10": "F31",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 24,
+    "name": "Schizophrenia",
+    "category": "Mental Health",
+    "icd10": "F20",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 25,
+    "name": "Post-Traumatic Stress Disorder",
+    "category": "Mental Health",
+    "icd10": "F43.1",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 26,
+    "name": "Gastroesophageal Reflux Disease",
+    "category": "Gastrointestinal",
+    "icd10": "K21",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 27,
+    "name": "Inflammatory Bowel Disease",
+    "category": "Gastrointestinal",
+    "icd10": "K50-K51",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 28,
+    "name": "Irritable Bowel Syndrome",
+    "category": "Gastrointestinal",
+    "icd10": "K58",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 29,
+    "name": "Peptic Ulcer Disease",
+    "category": "Gastrointestinal",
+    "icd10": "K25-K28",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 30,
+    "name": "Liver Cirrhosis",
+    "category": "Gastrointestinal",
+    "icd10": "K74",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 31,
+    "name": "Osteoarthritis",
+    "category": "Musculoskeletal",
+    "icd10": "M15-M19",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 32,
+    "name": "Rheumatoid Arthritis",
+    "category": "Musculoskeletal",
+    "icd10": "M05-M06",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 33,
+    "name": "Osteoporosis",
+    "category": "Musculoskeletal",
+    "icd10": "M81",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 34,
+    "name": "Low Back Pain",
+    "category": "Musculoskeletal",
+    "icd10": "M54",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 35,
+    "name": "Fibromyalgia",
+    "category": "Musculoskeletal",
+    "icd10": "M79.3",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 36,
+    "name": "COVID-19",
+    "category": "Infectious",
+    "icd10": "U07.1",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 37,
+    "name": "Tuberculosis",
+    "category": "Infectious",
+    "icd10": "A15-A19",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 38,
+    "name": "Malaria",
+    "category": "Infectious",
+    "icd10": "B50-B54",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 39,
+    "name": "HIV/AIDS",
+    "category": "Infectious",
+    "icd10": "B20-B24",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 40,
+    "name": "Hepatitis B",
+    "category": "Infectious",
+    "icd10": "B16",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 41,
+    "name": "Breast Cancer",
+    "category": "Cancer",
+    "icd10": "C50",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 42,
+    "name": "Colorectal Cancer",
+    "category": "Cancer",
+    "icd10": "C18-C20",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 43,
+    "name": "Prostate Cancer",
+    "category": "Cancer",
+    "icd10": "C61",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 44,
+    "name": "Liver Cancer",
+    "category": "Cancer",
+    "icd10": "C22",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 45,
+    "name": "Stomach Cancer",
+    "category": "Cancer",
+    "icd10": "C16",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 46,
+    "name": "Chronic Kidney Disease",
+    "category": "Renal",
+    "icd10": "N18",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 47,
+    "name": "Acute Kidney Injury",
+    "category": "Renal",
+    "icd10": "N17",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 48,
+    "name": "Kidney Stones",
+    "category": "Renal",
+    "icd10": "N20-N23",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 49,
+    "name": "Urinary Tract Infections",
+    "category": "Renal",
+    "icd10": "N39.0",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 50,
+    "name": "Benign Prostatic Hyperplasia",
+    "category": "Renal",
+    "icd10": "N40",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 51,
+    "name": "Atopic Dermatitis",
+    "category": "Dermatology",
+    "icd10": "L20",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 52,
+    "name": "Psoriasis",
+    "category": "Dermatology",
+    "icd10": "L40",
+    "prevalence": "Medium",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 53,
+    "name": "Acne Vulgaris",
+    "category": "Dermatology",
+    "icd10": "L70",
+    "prevalence": "Very High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 54,
+    "name": "Skin Cancer",
+    "category": "Dermatology",
+    "icd10": "C43-C44",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  },
+  {
+    "id": 55,
+    "name": "Eczema",
+    "category": "Dermatology",
+    "icd10": "L20-L30",
+    "prevalence": "High",
+    "papers_count": 10,
+    "symptoms_count": 4,
+    "treatments_count": 5
+  }
+]

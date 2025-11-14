@@ -1,0 +1,336 @@
+[
+  {
+    "condition": "Acute Myocardial Infarction",
+    "guideline_title": "2023 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization",
+    "organization": "American College of Cardiology/American Heart Association",
+    "year": 2023,
+    "recommendations": [
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Primary PCI is recommended for patients with STEMI presenting within 12 hours of symptom onset",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Dual antiplatelet therapy (aspirin + P2Y12 inhibitor) for 12 months unless contraindicated",
+        "evidence": "Meta-analysis of randomized trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "High-intensity statin therapy should be initiated in all patients with ACS",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "B",
+        "recommendation": "Beta-blocker therapy should be initiated within 24 hours in patients without contraindications",
+        "evidence": "Meta-analysis of randomized trials"
+      }
+    ],
+    "diagnostic_criteria": [
+      "Chest pain or equivalent symptoms",
+      "ECG changes (ST elevation, new LBBB, or ST depression)",
+      "Elevated cardiac biomarkers (troponin)",
+      "Imaging evidence of new loss of viable myocardium"
+    ],
+    "treatment_protocol": [
+      "Immediate assessment and triage",
+      "ECG within 10 minutes",
+      "Aspirin 325mg chewed",
+      "Primary PCI if available within 90 minutes",
+      "Thrombolytic therapy if PCI not available",
+      "Dual antiplatelet therapy",
+      "Statin therapy",
+      "ACE inhibitor or ARB",
+      "Beta-blocker if no contraindications"
+    ],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "2023 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization",
+        "journal": "Journal of the American College of Cardiology",
+        "year": 2023,
+        "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063"
+      }
+    ]
+  },
+  {
+    "condition": "Sepsis",
+    "guideline_title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021",
+    "organization": "Society of Critical Care Medicine",
+    "year": 2021,
+    "recommendations": [
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Administer antimicrobials within 1 hour of recognition of sepsis or septic shock",
+        "evidence": "Multiple observational studies"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Obtain blood cultures before antimicrobial administration if possible",
+        "evidence": "Observational studies"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Administer 30mL/kg crystalloid for hypotension or lactate ≥4mmol/L",
+        "evidence": "Randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Use norepinephrine as first-line vasopressor",
+        "evidence": "Multiple randomized controlled trials"
+      }
+    ],
+    "diagnostic_criteria": [
+      "Suspected or confirmed infection",
+      "SOFA score ≥2 points",
+      "qSOFA score ≥2 points (systolic BP ≤100mmHg, respiratory rate ≥22/min, altered mental status)"
+    ],
+    "treatment_protocol": [
+      "Sepsis-6 bundle implementation",
+      "Blood cultures before antibiotics",
+      "Lactate measurement",
+      "Antibiotics within 1 hour",
+      "Fluid resuscitation (30mL/kg crystalloid)",
+      "Vasopressors if needed",
+      "Source control",
+      "Corticosteroids in refractory shock"
+    ],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021",
+        "journal": "Intensive Care Medicine",
+        "year": 2021,
+        "url": "https://link.springer.com/article/10.1007/s00134-021-06506-y"
+      }
+    ]
+  },
+  {
+    "condition": "Type 2 Diabetes Mellitus",
+    "guideline_title": "Standards of Medical Care in Diabetes—2024",
+    "organization": "American Diabetes Association",
+    "year": 2024,
+    "recommendations": [
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Metformin is the preferred initial pharmacologic agent for type 2 diabetes",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "HbA1c target <7% for most nonpregnant adults",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "SGLT2 inhibitors or GLP-1 receptor agonists with proven cardiovascular benefit in patients with established ASCVD",
+        "evidence": "Cardiovascular outcome trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Blood pressure target <130/80 mmHg",
+        "evidence": "Multiple randomized controlled trials"
+      }
+    ],
+    "diagnostic_criteria": [
+      "HbA1c ≥6.5%",
+      "Fasting plasma glucose ≥126 mg/dL",
+      "2-hour plasma glucose ≥200 mg/dL during OGTT",
+      "Random plasma glucose ≥200 mg/dL with symptoms"
+    ],
+    "treatment_protocol": [
+      "Lifestyle modifications (diet, exercise, weight loss)",
+      "Metformin as first-line therapy",
+      "Add second agent if HbA1c not at target",
+      "Consider GLP-1 RA or SGLT2i for cardiovascular benefit",
+      "Insulin therapy if oral agents fail",
+      "Regular monitoring of HbA1c, blood pressure, lipids"
+    ],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Standards of Medical Care in Diabetes—2024",
+        "journal": "Diabetes Care",
+        "year": 2024,
+        "url": "https://diabetesjournals.org/care/issue/47/Supplement_1"
+      }
+    ]
+  },
+  {
+    "condition": "Hypertension",
+    "guideline_title": "2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults",
+    "organization": "American College of Cardiology/American Heart Association",
+    "year": 2017,
+    "recommendations": [
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Blood pressure target <130/80 mmHg for most adults",
+        "evidence": "SPRINT trial and meta-analyses"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "ACE inhibitors or ARBs as first-line therapy for most patients",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Thiazide-type diuretics as first-line therapy for most patients",
+        "evidence": "ALLHAT trial and meta-analyses"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Lifestyle modifications including DASH diet, sodium restriction, and regular exercise",
+        "evidence": "Multiple randomized controlled trials"
+      }
+    ],
+    "diagnostic_criteria": [
+      "Systolic BP ≥130 mmHg or diastolic BP ≥80 mmHg on multiple occasions",
+      "Proper measurement technique with appropriate cuff size",
+      "Multiple readings over time to confirm diagnosis"
+    ],
+    "treatment_protocol": [
+      "Lifestyle modifications (DASH diet, sodium <2.3g/day, exercise)",
+      "ACE inhibitor or ARB as first-line",
+      "Add thiazide diuretic if needed",
+      "Add calcium channel blocker if needed",
+      "Consider beta-blocker for specific indications",
+      "Regular monitoring and follow-up"
+    ],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults",
+        "journal": "Journal of the American College of Cardiology",
+        "year": 2017,
+        "url": "https://www.ahajournals.com/doi/10.1161/HYP.0000000000000065"
+      }
+    ]
+  },
+  {
+    "condition": "Heart Failure",
+    "guideline_title": "2022 AHA/ACC/HFSA Heart Failure Guideline",
+    "organization": "American Heart Association/American College of Cardiology",
+    "year": 2022,
+    "recommendations": [
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "ACE inhibitors or ARBs for patients with HFrEF",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Beta-blockers (carvedilol, metoprolol succinate, bisoprolol) for patients with HFrEF",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "SGLT2 inhibitors (dapagliflozin, empagliflozin) for patients with HFrEF",
+        "evidence": "DAPA-HF and EMPEROR-Reduced trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Aldosterone antagonists (spironolactone, eplerenone) for patients with HFrEF",
+        "evidence": "RALES and EMPHASIS-HF trials"
+      }
+    ],
+    "diagnostic_criteria": [
+      "Symptoms of heart failure (dyspnea, fatigue, edema)",
+      "Evidence of structural or functional cardiac abnormality",
+      "Elevated natriuretic peptides (BNP >100 pg/mL or NT-proBNP >300 pg/mL)"
+    ],
+    "treatment_protocol": [
+      "Lifestyle modifications (sodium restriction, fluid restriction, exercise)",
+      "ACE inhibitor or ARB",
+      "Beta-blocker",
+      "SGLT2 inhibitor",
+      "Aldosterone antagonist",
+      "Diuretics for symptom relief",
+      "Regular monitoring and follow-up"
+    ],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "2022 AHA/ACC/HFSA Heart Failure Guideline",
+        "journal": "Journal of the American College of Cardiology",
+        "year": 2022,
+        "url": "https://www.ahajournals.com/doi/10.1161/CIR.0000000000001063"
+      }
+    ]
+  },
+  {
+    "condition": "Stroke",
+    "guideline_title": "2021 Guidelines for the Early Management of Patients With Acute Ischemic Stroke",
+    "organization": "American Heart Association/American Stroke Association",
+    "year": 2021,
+    "recommendations": [
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "IV alteplase within 4.5 hours of symptom onset for eligible patients",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Mechanical thrombectomy within 24 hours for large vessel occlusion",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Aspirin 325mg within 24-48 hours for most patients",
+        "evidence": "Multiple randomized controlled trials"
+      },
+      {
+        "class": "I",
+        "level": "A",
+        "recommendation": "Blood pressure management with target <185/110 mmHg for thrombolysis",
+        "evidence": "Observational studies and expert consensus"
+      }
+    ],
+    "diagnostic_criteria": [
+      "Sudden onset of neurological deficit",
+      "CT scan to rule out hemorrhage",
+      "NIH Stroke Scale assessment",
+      "Time of symptom onset documentation"
+    ],
+    "treatment_protocol": [
+      "Immediate assessment and triage",
+      "CT scan within 25 minutes",
+      "IV alteplase if eligible within 4.5 hours",
+      "Mechanical thrombectomy if large vessel occlusion",
+      "Aspirin within 24-48 hours",
+      "Blood pressure management",
+      "Secondary prevention measures"
+    ],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "2021 Guidelines for the Early Management of Patients With Acute Ischemic Stroke",
+        "journal": "Stroke",
+        "year": 2021,
+        "url": "https://www.ahajournals.com/doi/10.1161/STR.0000000000000375"
+      }
+    ]
+  }
+]

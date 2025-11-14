@@ -1,0 +1,22 @@
+{
+  "dengue fever": {
+    "symptoms": ["fever", "headache", "rash", "joint pain", "muscle pain"],
+    "keywords": ["retro-orbital pain", "nausea", "vomiting"]
+  },
+  "influenza": {
+    "symptoms": ["fever", "cough", "sore throat", "muscle pain", "fatigue"],
+    "keywords": ["chills", "nasal congestion"]
+  },
+  "pneumonia": {
+    "symptoms": ["fever", "cough", "shortness of breath", "chest pain"],
+    "keywords": ["sputum", "fatigue"]
+  },
+  "asthma": {
+    "symptoms": ["shortness of breath", "wheezing", "cough", "chest tightness"],
+    "keywords": ["trigger", "exercise-induced"]
+  },
+  "urinary tract infection": {
+    "symptoms": ["burning urination", "frequent urination", "pelvic pain", "fever"],
+    "keywords": ["dysuria", "urgency", "cloudy urine"]
+  }
+}

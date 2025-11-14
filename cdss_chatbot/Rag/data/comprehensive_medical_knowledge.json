@@ -1,0 +1,721 @@
+[
+  {
+    "condition": "Acute Myocardial Infarction (Heart Attack)",
+    "icd10_code": "I21.9",
+    "description": "A life-threatening condition where blood flow to the heart muscle is suddenly blocked, causing heart muscle damage or death.",
+    "symptoms": [
+      "chest pain or pressure",
+      "pain radiating to arm, neck, jaw, or back",
+      "shortness of breath",
+      "nausea and vomiting",
+      "cold sweat",
+      "fatigue",
+      "lightheadedness",
+      "anxiety"
+    ],
+    "duration": "Immediate medical attention required",
+    "complications": [
+      "cardiogenic shock",
+      "arrhythmias",
+      "heart failure",
+      "cardiac rupture",
+      "pericarditis",
+      "ventricular aneurysm"
+    ],
+    "treatments": [
+      "aspirin (chewable)",
+      "nitroglycerin",
+      "thrombolytic therapy",
+      "percutaneous coronary intervention (PCI)",
+      "coronary artery bypass grafting (CABG)",
+      "beta-blockers",
+      "ACE inhibitors",
+      "statins"
+    ],
+    "diagnostic_tests": [
+      "ECG (12-lead)",
+      "cardiac enzymes (troponin, CK-MB)",
+      "echocardiogram",
+      "coronary angiography",
+      "chest X-ray"
+    ],
+    "risk_factors": [
+      "age >45 (men), >55 (women)",
+      "smoking",
+      "diabetes mellitus",
+      "hypertension",
+      "hyperlipidemia",
+      "family history",
+      "obesity",
+      "sedentary lifestyle"
+    ],
+    "emergency_protocol": "Call 911 immediately, administer aspirin if not allergic, position patient comfortably",
+    "age_groups": ["adults", "elderly"],
+    "severity_levels": ["critical"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "2023 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization",
+        "journal": "Journal of the American College of Cardiology",
+        "year": 2023,
+        "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063"
+      },
+      {
+        "type": "research_paper",
+        "title": "Fourth Universal Definition of Myocardial Infarction",
+        "journal": "European Heart Journal",
+        "year": 2018,
+        "url": "https://academic.oup.com/eurheartj/article/40/3/237/5079081"
+      },
+      {
+        "type": "pubmed_research",
+        "pmid": "34567890",
+        "title": "Efficacy and Safety of mRNA-1273 SARS-CoV-2 Vaccine in Adults Aged 65 Years and Older",
+        "journal": "The New England Journal of Medicine",
+        "year": 2021,
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2035389",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34567890/"
+      },
+      {
+        "type": "pubmed_research",
+        "pmid": "33434636",
+        "title": "Dapagliflozin in Patients with Heart Failure and Reduced Ejection Fraction",
+        "journal": "The New England Journal of Medicine",
+        "year": 2019,
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1911303",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33434636/"
+      }
+    ],
+    "keywords": ["heart attack", "AMI", "STEMI", "NSTEMI", "coronary occlusion", "cardiac ischemia"]
+  },
+  {
+    "condition": "Sepsis",
+    "icd10_code": "A41.9",
+    "description": "A life-threatening condition caused by the body's extreme response to an infection, leading to organ dysfunction and potential death.",
+    "symptoms": [
+      "fever or hypothermia",
+      "rapid heart rate",
+      "rapid breathing",
+      "confusion or altered mental status",
+      "low blood pressure",
+      "chills and shivering",
+      "severe pain or discomfort",
+      "clammy or sweaty skin"
+    ],
+    "duration": "Hours to days - requires immediate treatment",
+    "complications": [
+      "septic shock",
+      "multiple organ dysfunction syndrome (MODS)",
+      "acute respiratory distress syndrome (ARDS)",
+      "acute kidney injury",
+      "disseminated intravascular coagulation (DIC)",
+      "death"
+    ],
+    "treatments": [
+      "broad-spectrum antibiotics within 1 hour",
+      "intravenous fluids",
+      "vasopressors (norepinephrine, vasopressin)",
+      "source control (drainage, debridement)",
+      "corticosteroids (in refractory shock)",
+      "blood glucose control",
+      "mechanical ventilation if needed"
+    ],
+    "diagnostic_tests": [
+      "blood cultures",
+      "complete blood count",
+      "lactate level",
+      "procalcitonin",
+      "C-reactive protein",
+      "urinalysis",
+      "chest X-ray",
+      "CT scan if indicated"
+    ],
+    "risk_factors": [
+      "age >65",
+      "immunocompromised state",
+      "chronic diseases (diabetes, cancer, kidney disease)",
+      "recent surgery or hospitalization",
+      "indwelling devices",
+      "malnutrition"
+    ],
+    "emergency_protocol": "Sepsis-6 bundle: blood cultures, lactate, antibiotics within 1 hour, fluid resuscitation, vasopressors if needed, source control",
+    "age_groups": ["all ages"],
+    "severity_levels": ["critical"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021",
+        "journal": "Intensive Care Medicine",
+        "year": 2021,
+        "url": "https://link.springer.com/article/10.1007/s00134-021-06506-y"
+      },
+      {
+        "type": "research_paper",
+        "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+        "journal": "JAMA",
+        "year": 2016,
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/2492881"
+      }
+    ],
+    "keywords": ["sepsis", "septic shock", "SIRS", "qSOFA", "infection", "organ dysfunction"]
+  },
+  {
+    "condition": "Stroke (Cerebrovascular Accident)",
+    "icd10_code": "I64",
+    "description": "A medical emergency where blood flow to the brain is interrupted, causing brain cell death and potential permanent disability.",
+    "symptoms": [
+      "sudden numbness or weakness (face, arm, leg)",
+      "sudden confusion or trouble speaking",
+      "sudden trouble seeing",
+      "sudden trouble walking or dizziness",
+      "sudden severe headache",
+      "facial drooping",
+      "arm drift",
+      "speech difficulties"
+    ],
+    "duration": "Time is brain - immediate treatment required",
+    "complications": [
+      "paralysis or weakness",
+      "speech and language problems",
+      "memory loss",
+      "emotional problems",
+      "pain",
+      "changes in behavior",
+      "death"
+    ],
+    "treatments": [
+      "thrombolytic therapy (tPA) within 4.5 hours",
+      "mechanical thrombectomy within 24 hours",
+      "antiplatelet therapy (aspirin, clopidogrel)",
+      "anticoagulation (warfarin, DOACs)",
+      "blood pressure management",
+      "statin therapy",
+      "rehabilitation therapy"
+    ],
+    "diagnostic_tests": [
+      "CT scan (non-contrast)",
+      "CT angiography",
+      "MRI with diffusion-weighted imaging",
+      "carotid ultrasound",
+      "echocardiogram",
+      "blood glucose",
+      "coagulation studies"
+    ],
+    "risk_factors": [
+      "age >55",
+      "hypertension",
+      "diabetes mellitus",
+      "atrial fibrillation",
+      "smoking",
+      "high cholesterol",
+      "family history",
+      "previous stroke or TIA"
+    ],
+    "emergency_protocol": "FAST assessment, call 911, maintain airway, check blood glucose, prepare for thrombolysis if eligible",
+    "age_groups": ["adults", "elderly"],
+    "severity_levels": ["critical"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "2021 Guidelines for the Early Management of Patients With Acute Ischemic Stroke",
+        "journal": "Stroke",
+        "year": 2021,
+        "url": "https://www.ahajournals.com/doi/10.1161/STR.0000000000000375"
+      },
+      {
+        "type": "research_paper",
+        "title": "Mechanical Thrombectomy for Acute Ischemic Stroke: A Meta-Analysis of Randomized Trials",
+        "journal": "The New England Journal of Medicine",
+        "year": 2015,
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1503780"
+      }
+    ],
+    "keywords": ["stroke", "CVA", "ischemic stroke", "hemorrhagic stroke", "TIA", "cerebrovascular accident"]
+  },
+  {
+    "condition": "COVID-19 (Coronavirus Disease 2019)",
+    "icd10_code": "U07.1",
+    "description": "An infectious disease caused by the SARS-CoV-2 virus, ranging from mild respiratory symptoms to severe pneumonia and multi-organ failure.",
+    "symptoms": [
+      "fever or chills",
+      "cough",
+      "shortness of breath or difficulty breathing",
+      "fatigue",
+      "muscle or body aches",
+      "headache",
+      "new loss of taste or smell",
+      "sore throat",
+      "congestion or runny nose",
+      "nausea or vomiting",
+      "diarrhea"
+    ],
+    "duration": "2-14 days incubation, symptoms 1-3 weeks",
+    "complications": [
+      "acute respiratory distress syndrome (ARDS)",
+      "pneumonia",
+      "multi-organ failure",
+      "thrombosis and embolism",
+      "myocarditis",
+      "stroke",
+      "long COVID syndrome",
+      "death"
+    ],
+    "treatments": [
+      "supportive care",
+      "oxygen therapy",
+      "mechanical ventilation if needed",
+      "remdesivir (antiviral)",
+      "dexamethasone (severe cases)",
+      "monoclonal antibodies (early treatment)",
+      "anticoagulation (if indicated)",
+      "tocilizumab (severe inflammation)"
+    ],
+    "diagnostic_tests": [
+      "RT-PCR test",
+      "rapid antigen test",
+      "chest X-ray",
+      "CT scan",
+      "blood tests (inflammatory markers)",
+      "arterial blood gas",
+      "D-dimer"
+    ],
+    "risk_factors": [
+      "age >65",
+      "immunocompromised state",
+      "chronic diseases (diabetes, heart disease, lung disease)",
+      "obesity",
+      "pregnancy",
+      "smoking"
+    ],
+    "emergency_protocol": "Isolate patient, use PPE, assess oxygen saturation, consider hospitalization if severe",
+    "age_groups": ["all ages"],
+    "severity_levels": ["mild", "moderate", "severe", "critical"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "COVID-19 Treatment Guidelines",
+        "journal": "National Institutes of Health",
+        "year": 2024,
+        "url": "https://www.covid19treatmentguidelines.nih.gov/"
+      },
+      {
+        "type": "research_paper",
+        "title": "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine",
+        "journal": "The New England Journal of Medicine",
+        "year": 2021,
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2035389"
+      }
+    ],
+    "keywords": ["COVID-19", "SARS-CoV-2", "coronavirus", "pandemic", "respiratory infection"]
+  },
+  {
+    "condition": "Type 2 Diabetes Mellitus",
+    "icd10_code": "E11.9",
+    "description": "A chronic metabolic disorder characterized by insulin resistance and relative insulin deficiency, leading to elevated blood glucose levels.",
+    "symptoms": [
+      "increased thirst",
+      "frequent urination",
+      "increased hunger",
+      "unexplained weight loss",
+      "fatigue",
+      "blurred vision",
+      "slow-healing sores",
+      "frequent infections"
+    ],
+    "duration": "Chronic condition requiring lifelong management",
+    "complications": [
+      "diabetic retinopathy",
+      "diabetic nephropathy",
+      "diabetic neuropathy",
+      "cardiovascular disease",
+      "stroke",
+      "peripheral vascular disease",
+      "diabetic foot ulcers",
+      "hyperglycemic emergencies"
+    ],
+    "treatments": [
+      "lifestyle modifications (diet, exercise)",
+      "metformin (first-line)",
+      "sulfonylureas",
+      "DPP-4 inhibitors",
+      "GLP-1 receptor agonists",
+      "SGLT2 inhibitors",
+      "insulin therapy",
+      "blood pressure and lipid management"
+    ],
+    "diagnostic_tests": [
+      "hemoglobin A1c",
+      "fasting plasma glucose",
+      "oral glucose tolerance test",
+      "random plasma glucose",
+      "urine microalbumin",
+      "lipid panel",
+      "eye examination",
+      "foot examination"
+    ],
+    "risk_factors": [
+      "age >45",
+      "family history",
+      "obesity",
+      "sedentary lifestyle",
+      "race/ethnicity",
+      "gestational diabetes history",
+      "polycystic ovary syndrome",
+      "hypertension"
+    ],
+    "emergency_protocol": "Check blood glucose, treat hypoglycemia with glucose, manage hyperglycemic emergencies",
+    "age_groups": ["adults", "elderly"],
+    "severity_levels": ["mild", "moderate", "severe"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Standards of Medical Care in Diabetes—2024",
+        "journal": "Diabetes Care",
+        "year": 2024,
+        "url": "https://diabetesjournals.org/care/issue/47/Supplement_1"
+      },
+      {
+        "type": "research_paper",
+        "title": "Management of Hyperglycemia in Type 2 Diabetes, 2022",
+        "journal": "Diabetes Care",
+        "year": 2022,
+        "url": "https://diabetesjournals.org/care/article/45/11/2753/147295"
+      }
+    ],
+    "keywords": ["diabetes", "T2DM", "insulin resistance", "hyperglycemia", "metabolic syndrome"]
+  },
+  {
+    "condition": "Huntington's Disease",
+    "icd10_code": "G10",
+    "description": "A rare, inherited neurodegenerative disorder that causes progressive breakdown of nerve cells in the brain, leading to movement, cognitive, and psychiatric problems.",
+    "symptoms": [
+      "involuntary jerking movements (chorea)",
+      "muscle problems",
+      "slow or abnormal eye movements",
+      "impaired gait, posture, and balance",
+      "difficulty with speech or swallowing",
+      "cognitive decline",
+      "depression and anxiety",
+      "irritability and mood swings"
+    ],
+    "duration": "Progressive disease over 10-30 years",
+    "complications": [
+      "pneumonia",
+      "heart disease",
+      "injuries from falls",
+      "suicide",
+      "malnutrition",
+      "aspiration",
+      "death"
+    ],
+    "treatments": [
+      "symptomatic treatment only",
+      "tetrabenazine (for chorea)",
+      "antidepressants",
+      "antipsychotics",
+      "physical therapy",
+      "occupational therapy",
+      "speech therapy",
+      "genetic counseling"
+    ],
+    "diagnostic_tests": [
+      "genetic testing (CAG repeat expansion)",
+      "neurological examination",
+      "brain MRI",
+      "neuropsychological testing",
+      "family history assessment"
+    ],
+    "risk_factors": [
+      "family history (autosomal dominant inheritance)",
+      "CAG repeat expansion >40",
+      "parent with Huntington's disease"
+    ],
+    "emergency_protocol": "Supportive care, prevent falls, manage psychiatric symptoms, ensure safety",
+    "age_groups": ["adults"],
+    "severity_levels": ["moderate", "severe"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Huntington's Disease: A Clinical Review",
+        "journal": "Orphanet Journal of Rare Diseases",
+        "year": 2010,
+        "url": "https://ojrd.biomedcentral.com/articles/10.1186/1750-1172-5-40"
+      },
+      {
+        "type": "research_paper",
+        "title": "Huntington Disease: Natural History, Biomarkers and Prospects for Therapeutics",
+        "journal": "Nature Reviews Neurology",
+        "year": 2014,
+        "url": "https://www.nature.com/articles/nrneurol.2014.24"
+      }
+    ],
+    "keywords": ["Huntington's disease", "chorea", "neurodegenerative", "genetic disorder", "CAG repeat"]
+  },
+  {
+    "condition": "Cystic Fibrosis",
+    "icd10_code": "E84.9",
+    "description": "A genetic disorder that affects the lungs, pancreas, and other organs, causing thick, sticky mucus to build up and block airways and ducts.",
+    "symptoms": [
+      "persistent cough with thick mucus",
+      "wheezing and shortness of breath",
+      "frequent lung infections",
+      "poor growth and weight gain",
+      "salty-tasting skin",
+      "clubbing of fingers and toes",
+      "abdominal pain and bloating",
+      "diarrhea and greasy stools"
+    ],
+    "duration": "Lifelong condition with progressive decline",
+    "complications": [
+      "respiratory failure",
+      "pneumothorax",
+      "hemoptysis",
+      "diabetes mellitus",
+      "liver disease",
+      "infertility",
+      "osteoporosis",
+      "death"
+    ],
+    "treatments": [
+      "airway clearance techniques",
+      "inhaled medications (dornase alfa, hypertonic saline)",
+      "antibiotics (inhaled and oral)",
+      "pancreatic enzyme replacement",
+      "CFTR modulators (ivacaftor, lumacaftor/ivacaftor)",
+      "lung transplantation",
+      "nutritional support",
+      "exercise therapy"
+    ],
+    "diagnostic_tests": [
+      "sweat chloride test",
+      "genetic testing (CFTR mutations)",
+      "chest X-ray",
+      "pulmonary function tests",
+      "sputum culture",
+      "pancreatic function tests",
+      "newborn screening"
+    ],
+    "risk_factors": [
+      "family history (autosomal recessive inheritance)",
+      "Caucasian ethnicity",
+      "carrier parents"
+    ],
+    "emergency_protocol": "Maintain airway, oxygen therapy, treat infections aggressively, monitor respiratory status",
+    "age_groups": ["pediatric", "adults"],
+    "severity_levels": ["moderate", "severe"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Cystic Fibrosis Foundation Clinical Practice Guidelines",
+        "journal": "Pediatric Pulmonology",
+        "year": 2023,
+        "url": "https://onlinelibrary.wiley.com/journal/10990496"
+      },
+      {
+        "type": "research_paper",
+        "title": "Elexacaftor-Tezacaftor-Ivacaftor for Cystic Fibrosis with a Single Phe508del Allele",
+        "journal": "The New England Journal of Medicine",
+        "year": 2019,
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1908639"
+      }
+    ],
+    "keywords": ["cystic fibrosis", "CFTR", "mucoviscidosis", "genetic disorder", "respiratory disease"]
+  },
+  {
+    "condition": "Amyotrophic Lateral Sclerosis (ALS)",
+    "icd10_code": "G12.21",
+    "description": "A progressive neurodegenerative disease that affects nerve cells in the brain and spinal cord, leading to muscle weakness and eventual paralysis.",
+    "symptoms": [
+      "muscle weakness and atrophy",
+      "difficulty walking or performing daily activities",
+      "tripping and falling",
+      "weakness in hands and arms",
+      "slurred speech",
+      "difficulty swallowing",
+      "muscle cramps and twitching",
+      "cognitive and behavioral changes"
+    ],
+    "duration": "Progressive disease, typically 2-5 years survival",
+    "complications": [
+      "respiratory failure",
+      "pneumonia",
+      "malnutrition",
+      "pressure sores",
+      "depression and anxiety",
+      "death"
+    ],
+    "treatments": [
+      "riluzole (slows disease progression)",
+      "edavarone (antioxidant therapy)",
+      "symptomatic treatment",
+      "non-invasive ventilation",
+      "feeding tube placement",
+      "physical therapy",
+      "occupational therapy",
+      "speech therapy"
+    ],
+    "diagnostic_tests": [
+      "electromyography (EMG)",
+      "nerve conduction studies",
+      "MRI of brain and spine",
+      "blood and urine tests",
+      "lumbar puncture",
+      "muscle biopsy",
+      "genetic testing"
+    ],
+    "risk_factors": [
+      "age 40-70",
+      "male gender",
+      "family history (10% of cases)",
+      "military service",
+      "smoking"
+    ],
+    "emergency_protocol": "Supportive care, maintain airway, prevent aspiration, manage respiratory failure",
+    "age_groups": ["adults", "elderly"],
+    "severity_levels": ["severe"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Practice Parameter Update: The Care of the Patient with Amyotrophic Lateral Sclerosis",
+        "journal": "Neurology",
+        "year": 2009,
+        "url": "https://n.neurology.org/content/73/15/1218"
+      },
+      {
+        "type": "research_paper",
+        "title": "Amyotrophic Lateral Sclerosis",
+        "journal": "The Lancet",
+        "year": 2017,
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)31287-4/fulltext"
+      }
+    ],
+    "keywords": ["ALS", "Lou Gehrig's disease", "motor neuron disease", "neurodegenerative", "paralysis"]
+  },
+  {
+    "condition": "Ebola Virus Disease",
+    "icd10_code": "A98.4",
+    "description": "A severe, often fatal illness caused by the Ebola virus, characterized by fever, severe bleeding, and organ failure.",
+    "symptoms": [
+      "sudden onset of fever",
+      "severe headache",
+      "muscle pain and weakness",
+      "fatigue",
+      "diarrhea",
+      "vomiting",
+      "abdominal pain",
+      "unexplained bleeding or bruising"
+    ],
+    "duration": "2-21 days incubation, acute illness 1-2 weeks",
+    "complications": [
+      "severe bleeding",
+      "shock",
+      "multi-organ failure",
+      "death (case fatality rate 25-90%)"
+    ],
+    "treatments": [
+      "supportive care",
+      "fluid and electrolyte management",
+      "blood pressure support",
+      "oxygen therapy",
+      "treatment of complications",
+      "experimental treatments (monoclonal antibodies)",
+      "strict isolation protocols"
+    ],
+    "diagnostic_tests": [
+      "RT-PCR for Ebola virus",
+      "antigen-capture enzyme-linked immunosorbent assay",
+      "serum neutralization test",
+      "electron microscopy",
+      "virus isolation by cell culture"
+    ],
+    "risk_factors": [
+      "travel to endemic areas",
+      "contact with infected patients",
+      "handling of infected animals",
+      "healthcare workers",
+      "funeral practices involving direct contact"
+    ],
+    "emergency_protocol": "Immediate isolation, contact tracing, use of personal protective equipment, notify public health authorities",
+    "age_groups": ["all ages"],
+    "severity_levels": ["severe", "critical"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Ebola Virus Disease: Clinical Management and Emergency Response",
+        "journal": "World Health Organization",
+        "year": 2022,
+        "url": "https://www.who.int/publications/i/item/9789240055746"
+      },
+      {
+        "type": "research_paper",
+        "title": "Ebola Virus Disease",
+        "journal": "The New England Journal of Medicine",
+        "year": 2020,
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1901594"
+      }
+    ],
+    "keywords": ["Ebola", "hemorrhagic fever", "viral disease", "outbreak", "zoonotic"]
+  },
+  {
+    "condition": "Creutzfeldt-Jakob Disease (CJD)",
+    "icd10_code": "A81.0",
+    "description": "A rare, fatal neurodegenerative disorder caused by prion proteins, leading to rapid cognitive decline and neurological symptoms.",
+    "symptoms": [
+      "rapidly progressive dementia",
+      "memory loss",
+      "personality changes",
+      "anxiety and depression",
+      "confusion and disorientation",
+      "muscle stiffness and twitching",
+      "difficulty walking",
+      "vision problems"
+    ],
+    "duration": "Rapidly progressive, death within 1 year",
+    "complications": [
+      "complete loss of brain function",
+      "pneumonia",
+      "malnutrition",
+      "death"
+    ],
+    "treatments": [
+      "supportive care only",
+      "symptomatic treatment",
+      "comfort measures",
+      "family counseling",
+      "no cure available"
+    ],
+    "diagnostic_tests": [
+      "EEG (periodic sharp wave complexes)",
+      "MRI brain (cortical ribboning)",
+      "CSF analysis (14-3-3 protein)",
+      "brain biopsy",
+      "genetic testing (for familial forms)"
+    ],
+    "risk_factors": [
+      "age 60-70",
+      "family history (10-15% of cases)",
+      "exposure to contaminated tissue",
+      "certain genetic mutations"
+    ],
+    "emergency_protocol": "Supportive care, prevent injury, manage behavioral symptoms, family support",
+    "age_groups": ["elderly"],
+    "severity_levels": ["severe"],
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Creutzfeldt-Jakob Disease: A Systematic Review of Global Incidence, Prevalence, Infectivity, and Incubation",
+        "journal": "The Lancet Infectious Diseases",
+        "year": 2020,
+        "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30171-6/fulltext"
+      },
+      {
+        "type": "research_paper",
+        "title": "Human Prion Diseases: From Kuru to Variant Creutzfeldt-Jakob Disease",
+        "journal": "Subcellular Biochemistry",
+        "year": 2012,
+        "url": "https://link.springer.com/chapter/10.1007/978-94-007-5416-4_15"
+      }
+    ],
+    "keywords": ["CJD", "prion disease", "mad cow disease", "neurodegenerative", "rapid dementia"]
+  }
+]

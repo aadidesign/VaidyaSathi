@@ -1,0 +1,392 @@
+[
+  {
+    "drug_name": "Metformin",
+    "generic_name": "metformin hydrochloride",
+    "drug_class": "Biguanide",
+    "indications": [
+      "Type 2 diabetes mellitus",
+      "Prediabetes",
+      "Polycystic ovary syndrome"
+    ],
+    "mechanism_of_action": "Decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity",
+    "dosage": {
+      "adult": "500-2000mg daily in divided doses",
+      "pediatric": "Not recommended <10 years",
+      "elderly": "Start with lower doses, monitor renal function"
+    },
+    "contraindications": [
+      "Severe renal impairment (eGFR <30)",
+      "Acute or chronic metabolic acidosis",
+      "Hypersensitivity to metformin",
+      "Severe liver disease"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea",
+      "Abdominal pain",
+      "Metallic taste",
+      "Lactic acidosis (rare but serious)"
+    ],
+    "drug_interactions": [
+      {
+        "drug": "Contrast media",
+        "interaction": "Risk of lactic acidosis - hold 48 hours before and after",
+        "severity": "major"
+      },
+      {
+        "drug": "Alcohol",
+        "interaction": "Increased risk of lactic acidosis",
+        "severity": "moderate"
+      },
+      {
+        "drug": "Cimetidine",
+        "interaction": "Increased metformin levels",
+        "severity": "moderate"
+      }
+    ],
+    "monitoring": [
+      "Renal function (eGFR)",
+      "B12 levels (long-term use)",
+      "Lactic acid levels if symptoms present"
+    ],
+    "pregnancy_category": "B",
+    "breastfeeding": "Compatible",
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Metformin: A Review of Its Use in the Treatment of Type 2 Diabetes Mellitus",
+        "journal": "Drugs",
+        "year": 2019,
+        "url": "https://link.springer.com/article/10.1007/s40265-019-01135-8"
+      }
+    ]
+  },
+  {
+    "drug_name": "Warfarin",
+    "generic_name": "warfarin sodium",
+    "drug_class": "Vitamin K antagonist",
+    "indications": [
+      "Atrial fibrillation",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Mechanical heart valves",
+      "Stroke prevention"
+    ],
+    "mechanism_of_action": "Inhibits vitamin K epoxide reductase, preventing the synthesis of vitamin K-dependent clotting factors (II, VII, IX, X)",
+    "dosage": {
+      "adult": "2-10mg daily, adjusted based on INR",
+      "pediatric": "0.1-0.2mg/kg daily",
+      "elderly": "Lower initial doses, frequent monitoring"
+    },
+    "contraindications": [
+      "Active bleeding",
+      "Severe liver disease",
+      "Pregnancy (except mechanical valves)",
+      "Hypersensitivity to warfarin"
+    ],
+    "side_effects": [
+      "Bleeding",
+      "Bruising",
+      "Hematuria",
+      "Gastrointestinal bleeding",
+      "Intracranial hemorrhage",
+      "Skin necrosis (rare)"
+    ],
+    "drug_interactions": [
+      {
+        "drug": "Aspirin",
+        "interaction": "Increased bleeding risk",
+        "severity": "major"
+      },
+      {
+        "drug": "NSAIDs",
+        "interaction": "Increased bleeding risk",
+        "severity": "major"
+      },
+      {
+        "drug": "Antibiotics",
+        "interaction": "Increased INR, bleeding risk",
+        "severity": "major"
+      },
+      {
+        "drug": "Green leafy vegetables",
+        "interaction": "Decreased INR, reduced anticoagulation",
+        "severity": "moderate"
+      }
+    ],
+    "monitoring": [
+      "INR (target 2-3 for most indications)",
+      "Complete blood count",
+      "Signs of bleeding"
+    ],
+    "pregnancy_category": "X",
+    "breastfeeding": "Compatible with monitoring",
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Antithrombotic Therapy for Atrial Fibrillation: CHEST Guideline and Expert Panel Report",
+        "journal": "Chest",
+        "year": 2018,
+        "url": "https://journal.chestnet.org/article/S0012-3692(18)30136-5/fulltext"
+      }
+    ]
+  },
+  {
+    "drug_name": "Digoxin",
+    "generic_name": "digoxin",
+    "drug_class": "Cardiac glycoside",
+    "indications": [
+      "Heart failure with reduced ejection fraction",
+      "Atrial fibrillation with rapid ventricular response"
+    ],
+    "mechanism_of_action": "Inhibits Na+/K+ ATPase, increasing intracellular calcium and myocardial contractility",
+    "dosage": {
+      "adult": "0.125-0.25mg daily",
+      "pediatric": "0.01-0.02mg/kg daily",
+      "elderly": "Lower doses, monitor closely"
+    },
+    "contraindications": [
+      "Ventricular fibrillation",
+      "Ventricular tachycardia",
+      "Hypertrophic obstructive cardiomyopathy",
+      "Wolff-Parkinson-White syndrome with atrial fibrillation"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Vomiting",
+      "Anorexia",
+      "Visual disturbances (yellow-green vision)",
+      "Cardiac arrhythmias",
+      "Digoxin toxicity"
+    ],
+    "drug_interactions": [
+      {
+        "drug": "Amiodarone",
+        "interaction": "Increased digoxin levels",
+        "severity": "major"
+      },
+      {
+        "drug": "Verapamil",
+        "interaction": "Increased digoxin levels",
+        "severity": "major"
+      },
+      {
+        "drug": "Diuretics",
+        "interaction": "Hypokalemia increases digoxin toxicity",
+        "severity": "major"
+      }
+    ],
+    "monitoring": [
+      "Digoxin levels (target 0.5-0.9 ng/mL)",
+      "Electrolytes (especially potassium)",
+      "ECG",
+      "Renal function"
+    ],
+    "pregnancy_category": "C",
+    "breastfeeding": "Compatible",
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure",
+        "journal": "Journal of the American College of Cardiology",
+        "year": 2017,
+        "url": "https://www.ahajournals.com/doi/10.1161/CIR.0000000000000509"
+      }
+    ]
+  },
+  {
+    "drug_name": "Insulin",
+    "generic_name": "insulin",
+    "drug_class": "Hormone",
+    "indications": [
+      "Type 1 diabetes mellitus",
+      "Type 2 diabetes mellitus (when oral agents fail)",
+      "Diabetic ketoacidosis",
+      "Hyperglycemic hyperosmolar state"
+    ],
+    "mechanism_of_action": "Regulates glucose metabolism by promoting glucose uptake into cells and inhibiting gluconeogenesis",
+    "dosage": {
+      "adult": "Variable based on blood glucose levels",
+      "pediatric": "0.5-1.0 units/kg/day",
+      "elderly": "Start with lower doses, frequent monitoring"
+    },
+    "contraindications": [
+      "Hypoglycemia",
+      "Hypersensitivity to insulin"
+    ],
+    "side_effects": [
+      "Hypoglycemia",
+      "Weight gain",
+      "Injection site reactions",
+      "Lipodystrophy",
+      "Allergic reactions"
+    ],
+    "drug_interactions": [
+      {
+        "drug": "Alcohol",
+        "interaction": "Increased hypoglycemia risk",
+        "severity": "major"
+      },
+      {
+        "drug": "Beta-blockers",
+        "interaction": "Masked hypoglycemia symptoms",
+        "severity": "major"
+      },
+      {
+        "drug": "Corticosteroids",
+        "interaction": "Increased insulin requirements",
+        "severity": "moderate"
+      }
+    ],
+    "monitoring": [
+      "Blood glucose levels",
+      "HbA1c",
+      "Signs of hypoglycemia",
+      "Weight"
+    ],
+    "pregnancy_category": "B",
+    "breastfeeding": "Compatible",
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Standards of Medical Care in Diabetes—2024",
+        "journal": "Diabetes Care",
+        "year": 2024,
+        "url": "https://diabetesjournals.org/care/issue/47/Supplement_1"
+      }
+    ]
+  },
+  {
+    "drug_name": "Morphine",
+    "generic_name": "morphine sulfate",
+    "drug_class": "Opioid analgesic",
+    "indications": [
+      "Severe pain",
+      "Postoperative pain",
+      "Cancer pain",
+      "Acute myocardial infarction"
+    ],
+    "mechanism_of_action": "Binds to mu-opioid receptors in the central nervous system, producing analgesia and other effects",
+    "dosage": {
+      "adult": "5-15mg every 4 hours as needed",
+      "pediatric": "0.1-0.2mg/kg every 4 hours",
+      "elderly": "Start with lower doses, monitor closely"
+    },
+    "contraindications": [
+      "Respiratory depression",
+      "Acute or severe bronchial asthma",
+      "Paralytic ileus",
+      "Hypersensitivity to morphine"
+    ],
+    "side_effects": [
+      "Respiratory depression",
+      "Sedation",
+      "Nausea",
+      "Vomiting",
+      "Constipation",
+      "Pruritus",
+      "Urinary retention"
+    ],
+    "drug_interactions": [
+      {
+        "drug": "Benzodiazepines",
+        "interaction": "Increased respiratory depression",
+        "severity": "major"
+      },
+      {
+        "drug": "Alcohol",
+        "interaction": "Increased CNS depression",
+        "severity": "major"
+      },
+      {
+        "drug": "MAO inhibitors",
+        "interaction": "Serotonin syndrome risk",
+        "severity": "major"
+      }
+    ],
+    "monitoring": [
+      "Respiratory rate",
+      "Pain scores",
+      "Level of consciousness",
+      "Blood pressure"
+    ],
+    "pregnancy_category": "C",
+    "breastfeeding": "Use with caution",
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "Management of Opioid Therapy for Chronic Pain",
+        "journal": "Journal of Pain",
+        "year": 2016,
+        "url": "https://www.jpain.org/article/S1526-5900(16)00012-4/fulltext"
+      }
+    ]
+  },
+  {
+    "drug_name": "Aspirin",
+    "generic_name": "acetylsalicylic acid",
+    "drug_class": "Nonsteroidal anti-inflammatory drug (NSAID)",
+    "indications": [
+      "Cardiovascular disease prevention",
+      "Acute coronary syndrome",
+      "Stroke prevention",
+      "Pain and inflammation",
+      "Fever reduction"
+    ],
+    "mechanism_of_action": "Irreversibly inhibits cyclooxygenase (COX), preventing prostaglandin synthesis and platelet aggregation",
+    "dosage": {
+      "adult": "75-325mg daily for cardiovascular prevention",
+      "pediatric": "10-15mg/kg every 4-6 hours (avoid in children <18 with viral infections)",
+      "elderly": "Use lowest effective dose"
+    },
+    "contraindications": [
+      "Active bleeding",
+      "Severe liver disease",
+      "Severe kidney disease",
+      "Hypersensitivity to aspirin or NSAIDs",
+      "Reye's syndrome risk in children"
+    ],
+    "side_effects": [
+      "Gastrointestinal bleeding",
+      "Peptic ulcer disease",
+      "Nausea",
+      "Vomiting",
+      "Tinnitus",
+      "Reye's syndrome (in children)"
+    ],
+    "drug_interactions": [
+      {
+        "drug": "Warfarin",
+        "interaction": "Increased bleeding risk",
+        "severity": "major"
+      },
+      {
+        "drug": "Methotrexate",
+        "interaction": "Increased methotrexate toxicity",
+        "severity": "major"
+      },
+      {
+        "drug": "ACE inhibitors",
+        "interaction": "Reduced antihypertensive effect",
+        "severity": "moderate"
+      }
+    ],
+    "monitoring": [
+      "Signs of bleeding",
+      "Gastrointestinal symptoms",
+      "Renal function"
+    ],
+    "pregnancy_category": "D (third trimester)",
+    "breastfeeding": "Compatible in low doses",
+    "sources": [
+      {
+        "type": "clinical_guideline",
+        "title": "2019 ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease",
+        "journal": "Journal of the American College of Cardiology",
+        "year": 2019,
+        "url": "https://www.ahajournals.com/doi/10.1161/CIR.0000000000000678"
+      }
+    ]
+  }
+]

@@ -1,0 +1,352 @@
+{
+  "acute_myocardial_infarction": {
+    "symptoms": [
+      "chest pain", "chest pressure", "chest tightness", "chest discomfort",
+      "arm pain", "jaw pain", "neck pain", "back pain", "shoulder pain",
+      "shortness of breath", "dyspnea", "breathing difficulty",
+      "nausea", "vomiting", "sweating", "cold sweat", "diaphoresis",
+      "fatigue", "weakness", "lightheadedness", "dizziness", "syncope",
+      "anxiety", "feeling of doom", "palpitations", "rapid heartbeat"
+    ],
+    "keywords": [
+      "heart attack", "AMI", "STEMI", "NSTEMI", "coronary occlusion",
+      "cardiac ischemia", "myocardial infarction", "acute coronary syndrome"
+    ],
+    "severity": "critical",
+    "emergency": true
+  },
+  "sepsis": {
+    "symptoms": [
+      "fever", "hypothermia", "chills", "shivering", "rigors",
+      "rapid heart rate", "tachycardia", "palpitations",
+      "rapid breathing", "tachypnea", "shortness of breath",
+      "confusion", "altered mental status", "disorientation",
+      "low blood pressure", "hypotension", "dizziness",
+      "severe pain", "discomfort", "clammy skin", "sweating"
+    ],
+    "keywords": [
+      "sepsis", "septic shock", "SIRS", "qSOFA", "infection",
+      "organ dysfunction", "systemic inflammatory response"
+    ],
+    "severity": "critical",
+    "emergency": true
+  },
+  "stroke": {
+    "symptoms": [
+      "sudden numbness", "weakness", "paralysis", "facial drooping",
+      "arm drift", "leg weakness", "difficulty walking", "ataxia",
+      "speech difficulty", "slurred speech", "aphasia", "dysarthria",
+      "vision problems", "visual field defect", "diplopia",
+      "severe headache", "thunderclap headache", "dizziness", "vertigo",
+      "confusion", "altered consciousness", "loss of consciousness"
+    ],
+    "keywords": [
+      "stroke", "CVA", "cerebrovascular accident", "ischemic stroke",
+      "hemorrhagic stroke", "TIA", "transient ischemic attack"
+    ],
+    "severity": "critical",
+    "emergency": true
+  },
+  "covid_19": {
+    "symptoms": [
+      "fever", "chills", "cough", "dry cough", "productive cough",
+      "shortness of breath", "dyspnea", "breathing difficulty",
+      "fatigue", "weakness", "malaise", "body aches", "myalgia",
+      "headache", "sore throat", "pharyngitis", "congestion",
+      "runny nose", "rhinorrhea", "sneezing", "loss of taste",
+      "loss of smell", "anosmia", "ageusia", "nausea", "vomiting",
+      "diarrhea", "abdominal pain", "chest pain"
+    ],
+    "keywords": [
+      "COVID-19", "SARS-CoV-2", "coronavirus", "pandemic",
+      "respiratory infection", "viral pneumonia"
+    ],
+    "severity": "variable",
+    "emergency": false
+  },
+  "type_2_diabetes": {
+    "symptoms": [
+      "increased thirst", "polydipsia", "frequent urination", "polyuria",
+      "increased hunger", "polyphagia", "weight loss", "unexplained weight loss",
+      "fatigue", "weakness", "blurred vision", "slow healing sores",
+      "frequent infections", "yeast infections", "urinary tract infections",
+      "numbness", "tingling", "burning sensation", "diabetic neuropathy"
+    ],
+    "keywords": [
+      "diabetes", "T2DM", "type 2 diabetes", "insulin resistance",
+      "hyperglycemia", "diabetic", "metabolic syndrome"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "huntingtons_disease": {
+    "symptoms": [
+      "involuntary movements", "chorea", "jerky movements", "dystonia",
+      "muscle stiffness", "rigidity", "slow movements", "bradykinesia",
+      "impaired gait", "difficulty walking", "balance problems", "falls",
+      "speech difficulty", "dysarthria", "swallowing difficulty", "dysphagia",
+      "cognitive decline", "memory problems", "confusion", "dementia",
+      "depression", "anxiety", "irritability", "mood swings", "psychosis"
+    ],
+    "keywords": [
+      "Huntington's disease", "chorea", "neurodegenerative", "genetic disorder",
+      "CAG repeat", "autosomal dominant"
+    ],
+    "severity": "severe",
+    "emergency": false
+  },
+  "cystic_fibrosis": {
+    "symptoms": [
+      "persistent cough", "chronic cough", "thick mucus", "sputum production",
+      "wheezing", "shortness of breath", "dyspnea", "chest tightness",
+      "frequent lung infections", "pneumonia", "bronchitis",
+      "poor growth", "failure to thrive", "weight loss", "malnutrition",
+      "salty skin", "salty taste", "clubbing", "finger clubbing",
+      "abdominal pain", "bloating", "diarrhea", "greasy stools", "steatorrhea"
+    ],
+    "keywords": [
+      "cystic fibrosis", "CFTR", "mucoviscidosis", "genetic disorder",
+      "respiratory disease", "autosomal recessive"
+    ],
+    "severity": "severe",
+    "emergency": false
+  },
+  "als": {
+    "symptoms": [
+      "muscle weakness", "muscle atrophy", "muscle wasting", "fasciculations",
+      "muscle twitching", "cramps", "spasticity", "rigidity",
+      "difficulty walking", "gait problems", "tripping", "falls",
+      "hand weakness", "arm weakness", "leg weakness", "foot drop",
+      "speech difficulty", "dysarthria", "slurred speech",
+      "swallowing difficulty", "dysphagia", "choking", "aspiration",
+      "breathing difficulty", "respiratory failure", "cognitive changes"
+    ],
+    "keywords": [
+      "ALS", "amyotrophic lateral sclerosis", "Lou Gehrig's disease",
+      "motor neuron disease", "neurodegenerative", "paralysis"
+    ],
+    "severity": "severe",
+    "emergency": false
+  },
+  "ebola": {
+    "symptoms": [
+      "sudden fever", "high fever", "severe headache", "migraine",
+      "muscle pain", "myalgia", "joint pain", "arthralgia",
+      "fatigue", "weakness", "malaise", "diarrhea", "vomiting",
+      "abdominal pain", "nausea", "unexplained bleeding", "hemorrhage",
+      "bruising", "petechiae", "ecchymosis", "bleeding gums",
+      "nosebleeds", "blood in stool", "blood in urine"
+    ],
+    "keywords": [
+      "Ebola", "hemorrhagic fever", "viral disease", "outbreak",
+      "zoonotic", "filovirus", "EVD"
+    ],
+    "severity": "critical",
+    "emergency": true
+  },
+  "creutzfeldt_jakob_disease": {
+    "symptoms": [
+      "rapid dementia", "memory loss", "cognitive decline", "confusion",
+      "disorientation", "personality changes", "behavioral changes",
+      "anxiety", "depression", "psychosis", "hallucinations",
+      "delusions", "muscle stiffness", "rigidity", "myoclonus",
+      "jerky movements", "difficulty walking", "ataxia", "gait problems",
+      "vision problems", "blindness", "speech difficulty", "aphasia"
+    ],
+    "keywords": [
+      "CJD", "Creutzfeldt-Jakob disease", "prion disease", "mad cow disease",
+      "neurodegenerative", "rapid dementia", "spongiform encephalopathy"
+    ],
+    "severity": "severe",
+    "emergency": false
+  },
+  "pneumonia": {
+    "symptoms": [
+      "fever", "chills", "cough", "productive cough", "purulent sputum",
+      "chest pain", "pleuritic pain", "shortness of breath", "dyspnea",
+      "fatigue", "weakness", "sweating", "night sweats",
+      "nausea", "vomiting", "headache", "confusion", "delirium"
+    ],
+    "keywords": [
+      "pneumonia", "lung infection", "respiratory infection", "pneumonitis",
+      "bacterial pneumonia", "viral pneumonia", "community-acquired pneumonia"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "asthma": {
+    "symptoms": [
+      "wheezing", "shortness of breath", "dyspnea", "chest tightness",
+      "cough", "chronic cough", "nighttime cough", "exercise-induced symptoms",
+      "rapid breathing", "tachypnea", "difficulty speaking", "anxiety"
+    ],
+    "keywords": [
+      "asthma", "bronchial asthma", "reactive airway disease", "wheezing",
+      "bronchospasm", "airway obstruction", "allergic asthma"
+    ],
+    "severity": "variable",
+    "emergency": false
+  },
+  "hypertension": {
+    "symptoms": [
+      "headache", "severe headache", "dizziness", "lightheadedness",
+      "blurred vision", "vision changes", "chest pain", "shortness of breath",
+      "nosebleeds", "epistaxis", "fatigue", "confusion", "anxiety"
+    ],
+    "keywords": [
+      "hypertension", "high blood pressure", "HTN", "elevated blood pressure",
+      "essential hypertension", "secondary hypertension"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "heart_failure": {
+    "symptoms": [
+      "shortness of breath", "dyspnea", "orthopnea", "paroxysmal nocturnal dyspnea",
+      "fatigue", "weakness", "exercise intolerance", "swelling", "edema",
+      "ankle swelling", "leg swelling", "weight gain", "rapid weight gain",
+      "cough", "productive cough", "pink frothy sputum", "chest pain",
+      "palpitations", "irregular heartbeat", "confusion", "decreased alertness"
+    ],
+    "keywords": [
+      "heart failure", "congestive heart failure", "CHF", "cardiac failure",
+      "left ventricular dysfunction", "systolic dysfunction", "diastolic dysfunction"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "chronic_kidney_disease": {
+    "symptoms": [
+      "fatigue", "weakness", "nausea", "vomiting", "loss of appetite",
+      "weight loss", "swelling", "edema", "ankle swelling", "puffiness",
+      "shortness of breath", "dyspnea", "chest pain", "bone pain",
+      "muscle cramps", "itching", "pruritus", "dry skin", "changes in urination",
+      "decreased urination", "foamy urine", "blood in urine", "confusion"
+    ],
+    "keywords": [
+      "chronic kidney disease", "CKD", "renal failure", "kidney failure",
+      "nephropathy", "azotemia", "uremia", "end-stage renal disease"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "liver_cirrhosis": {
+    "symptoms": [
+      "fatigue", "weakness", "loss of appetite", "weight loss", "nausea",
+      "vomiting", "abdominal pain", "abdominal swelling", "ascites",
+      "swelling", "edema", "jaundice", "yellow skin", "yellow eyes",
+      "itching", "pruritus", "easy bruising", "bleeding", "confusion",
+      "mental changes", "spider angiomas", "palmar erythema"
+    ],
+    "keywords": [
+      "liver cirrhosis", "cirrhosis", "hepatic cirrhosis", "liver failure",
+      "portal hypertension", "ascites", "hepatomegaly"
+    ],
+    "severity": "severe",
+    "emergency": false
+  },
+  "cancer": {
+    "symptoms": [
+      "unexplained weight loss", "fatigue", "weakness", "fever", "night sweats",
+      "pain", "chronic pain", "lump", "mass", "swelling", "bleeding",
+      "unusual bleeding", "changes in bowel habits", "constipation", "diarrhea",
+      "changes in urination", "difficulty swallowing", "dysphagia",
+      "persistent cough", "hoarseness", "skin changes", "mole changes"
+    ],
+    "keywords": [
+      "cancer", "malignancy", "tumor", "neoplasm", "carcinoma", "sarcoma",
+      "lymphoma", "leukemia", "metastasis", "oncology"
+    ],
+    "severity": "variable",
+    "emergency": false
+  },
+  "depression": {
+    "symptoms": [
+      "sadness", "hopelessness", "emptiness", "anxiety", "restlessness",
+      "irritability", "anger", "frustration", "loss of interest", "anhedonia",
+      "fatigue", "lack of energy", "sleep problems", "insomnia", "hypersomnia",
+      "appetite changes", "weight changes", "concentration problems",
+      "memory problems", "guilt", "worthlessness", "suicidal thoughts"
+    ],
+    "keywords": [
+      "depression", "major depression", "depressive disorder", "mood disorder",
+      "clinical depression", "bipolar disorder", "dysthymia"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "anxiety_disorder": {
+    "symptoms": [
+      "excessive worry", "anxiety", "fear", "panic", "panic attacks",
+      "restlessness", "irritability", "muscle tension", "headaches",
+      "fatigue", "sleep problems", "insomnia", "concentration problems",
+      "sweating", "trembling", "rapid heartbeat", "palpitations",
+      "shortness of breath", "dizziness", "nausea", "stomach problems"
+    ],
+    "keywords": [
+      "anxiety", "anxiety disorder", "generalized anxiety disorder", "GAD",
+      "panic disorder", "social anxiety", "phobia", "PTSD"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "migraine": {
+    "symptoms": [
+      "severe headache", "throbbing headache", "pulsating pain", "unilateral pain",
+      "nausea", "vomiting", "sensitivity to light", "photophobia",
+      "sensitivity to sound", "phonophobia", "sensitivity to smell",
+      "visual disturbances", "aura", "flashing lights", "zigzag lines",
+      "numbness", "tingling", "weakness", "difficulty speaking"
+    ],
+    "keywords": [
+      "migraine", "migraine headache", "vascular headache", "aura",
+      "photophobia", "phonophobia", "cephalgia"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "epilepsy": {
+    "symptoms": [
+      "seizures", "convulsions", "unconsciousness", "loss of consciousness",
+      "staring spells", "automatisms", "repetitive movements", "jerky movements",
+      "muscle stiffness", "rigidity", "falling", "incontinence",
+      "confusion", "disorientation", "memory loss", "headache", "fatigue"
+    ],
+    "keywords": [
+      "epilepsy", "seizures", "convulsions", "epileptic", "tonic-clonic",
+      "absence seizures", "partial seizures", "generalized seizures"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "parkinsons_disease": {
+    "symptoms": [
+      "tremor", "shaking", "rigidity", "stiffness", "bradykinesia",
+      "slow movements", "postural instability", "balance problems", "falls",
+      "gait problems", "shuffling gait", "freezing", "speech problems",
+      "soft speech", "monotone speech", "swallowing problems", "drooling",
+      "facial masking", "reduced facial expression", "depression", "anxiety"
+    ],
+    "keywords": [
+      "Parkinson's disease", "Parkinsonism", "neurodegenerative", "dopamine",
+      "tremor", "bradykinesia", "rigidity", "postural instability"
+    ],
+    "severity": "moderate",
+    "emergency": false
+  },
+  "alzheimers_disease": {
+    "symptoms": [
+      "memory loss", "forgetfulness", "confusion", "disorientation",
+      "difficulty with familiar tasks", "language problems", "aphasia",
+      "misplacing things", "poor judgment", "mood changes", "personality changes",
+      "withdrawal", "depression", "anxiety", "agitation", "aggression",
+      "sleep problems", "wandering", "delusions", "hallucinations"
+    ],
+    "keywords": [
+      "Alzheimer's disease", "dementia", "cognitive decline", "memory loss",
+      "neurodegenerative", "amyloid", "tau protein"
+    ],
+    "severity": "severe",
+    "emergency": false
+  }
+}
